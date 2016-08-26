@@ -20,10 +20,16 @@ var optimizelyInstance = optimizely.createInstance({
 ```
 optimizelyInstance.activate(experimentKey, userId, attributes);
 
+optimizelyInstance.activateVariation(experimentKey, userId, variationKey, attributes);
+
 optimizelyInstance.track(eventKey, userId, attributes, eventValue);
 
 optimizelyInstance.getVariation(experimentKey, userId, attributes);
 ```
+
+###Added Functionality
+
+Do manual bucketing of variations and simply provide the variation key to activate the instance.
 
 ###Directory structure
 
