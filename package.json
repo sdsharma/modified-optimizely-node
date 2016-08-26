@@ -1,0 +1,32 @@
+{
+  "name": "modified-optimizely-node",
+  "description": "Node SDK for consumption for server-side testing",
+  "version": "0.1.6",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdsharma/modified-optimizely-node.git"
+  },
+  "keywords": [
+    "optimizely"
+  ],
+  "homepage": "https://github.com/sdsharma/modified-optimizely-node",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./lib/**/*tests.js ./lib/**/**/*tests.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "jsonschema": "^1.1.0",
+    "lodash": "^3.10.1",
+    "murmurhash": "0.0.2",
+    "request-promise": "^2.0.1",
+    "sprintf": "^0.1.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.9.0",
+    "mocha": "^2.4.5",
+    "nock": "^7.7.2",
+    "sinon": "^1.17.4"
+  }
+}
